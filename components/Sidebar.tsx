@@ -4,7 +4,7 @@ import Link from 'next/link';
 import useSWR from 'swr';
 
 import useLayoutService from '@/lib/hooks/useLayout';
-
+  
 const Sidebar = () => {
   const { toggleDrawer } = useLayoutService();
   const {
