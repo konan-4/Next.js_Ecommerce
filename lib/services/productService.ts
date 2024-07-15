@@ -3,7 +3,7 @@ import { cache } from 'react';
 import dbConnect from '@/lib/dbConnect';
 import ProductModel, { Product } from '@/lib/models/ProductModel';
 
-export const revalidate = 3600;
+export const revalidate = 3600; 
 
 const getLatest = cache(async () => {
   await dbConnect();

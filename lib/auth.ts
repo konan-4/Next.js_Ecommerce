@@ -10,9 +10,9 @@ export const config = {
     CredentialsProvider({
       credentials: {
         email: {
-          type: 'email',
+          type: 'email',  
         },
-        password: {
+        password: { 
           type: 'password',
         },
       },
@@ -35,7 +35,6 @@ export const config = {
       },
     }),
   ],
-  // custom pages for sign in and register
   pages: {
     signIn: '/signin',
     newUser: '/register',

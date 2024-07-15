@@ -6,7 +6,7 @@ export const paypal = {
     const url = `${base}/v2/checkout/orders`;
     const response = await fetch(url, {
       method: 'post',
-      headers: {
+      headers: {  
         'Content-Type': 'application/json',
         Authorization: `Bearer ${accessToken}`,
       },
