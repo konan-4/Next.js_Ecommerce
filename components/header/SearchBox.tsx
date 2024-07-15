@@ -15,7 +15,7 @@ export const SearchBox = () => {
   const [formQuery, setFormQuery] = useState(q);
 
   const {
-    data: categories,
+    data: categories, 
     error,
     isLoading,
   } = useSWR('/api/products/categories');

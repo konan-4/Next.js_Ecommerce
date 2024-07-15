@@ -7,5 +7,5 @@ const Overlay = ({ category }: { category: string }) => {
     </div>
   );
 };
-
+  
 export default Overlay;

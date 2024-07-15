@@ -14,7 +14,7 @@ const Menu = () => {
   const { data: session } = useSession();
   const { theme, toggleTheme } = useLayoutService();
 
-  const signOutHandler = () => {
+  const signOutHandler = () => {  
     signOut({ callbackUrl: '/signin' });
     init();
   };
