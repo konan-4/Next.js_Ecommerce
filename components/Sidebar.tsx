@@ -5,7 +5,7 @@ import useSWR from 'swr';
 
 import useLayoutService from '@/lib/hooks/useLayout';
 
-const Sidebar = () => {
+const Sidebar = () => { 
   const { toggleDrawer } = useLayoutService();
   const {
     data: categories,

@@ -5,7 +5,7 @@ import useLayoutService from '@/lib/hooks/useLayout';
 const DrawerButton = () => {
   const { drawerOpen, toggleDrawer } = useLayoutService();
   return (
-    <input
+    <input  
       id='my-drawer'
       type='checkbox'
       className='drawer-toggle'

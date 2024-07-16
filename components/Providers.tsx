@@ -6,7 +6,7 @@ import ClientProvider from './ClientProvider';
 
 const Providers = async ({ children }: { children: React.ReactNode }) => {
   const session = await auth();
-  return (
+  return (  
     <SessionProvider session={session}>
       <ClientProvider>{children}</ClientProvider>
     </SessionProvider>

@@ -6,8 +6,8 @@ import Handbags from '../../public/images/categories/Handbags.webp';
 import Pants from '../../public/images/categories/Pants.webp';
 import Shirts from '../../public/images/categories/Shirts.webp';
 
-const Categories = () => {
-  return (
+const Categories = () => {  
+  return (  
     <div className='grid auto-rows-[300px] grid-cols-2 gap-4 md:auto-rows-[330px] md:grid-cols-4'>
       <Link
         href='/search?category=Shirts'

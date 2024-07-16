@@ -6,10 +6,10 @@ import { signOut, signIn, useSession } from 'next-auth/react';
 
 import useCartService from '@/lib/hooks/useCartStore';
 import useLayoutService from '@/lib/hooks/useLayout';
-
+  
 import { SearchBox } from './SearchBox';
 
-const Menu = () => {
+const Menu = () => {  
   const { items, init } = useCartService();
   const { data: session } = useSession();
   const { theme, toggleTheme } = useLayoutService();

@@ -5,7 +5,7 @@ import productService from '@/lib/services/productService';
 import { convertDocToObj } from '@/lib/utils';
 
 const Slider = async () => {
-  const topRated = await productService.getTopRated();
+  const topRated = await productService.getTopRated();  
 
   return (
     <div>

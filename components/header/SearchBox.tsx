@@ -2,11 +2,11 @@
 
 import { useSearchParams } from 'next/navigation';
 import { useRouter } from 'next-nprogress-bar';
-import { useState } from 'react';
+import { useState } from 'react'; 
 import useSWR from 'swr';
 
 export const SearchBox = () => {
-  const searchParams = useSearchParams();
+  const searchParams = useSearchParams(); 
   const q = searchParams.get('q') || '';
   const category = searchParams.get('category') || 'all';
   const router = useRouter();

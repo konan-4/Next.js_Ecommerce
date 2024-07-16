@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 import {
-  Carousel,
+  Carousel, 
   CarouselContent,
   CarouselNext,
   CarouselPrevious,

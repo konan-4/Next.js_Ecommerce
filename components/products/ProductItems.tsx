@@ -2,7 +2,7 @@ import productService from '@/lib/services/productService';
 import { convertDocToObj, delay } from '@/lib/utils';
 
 import ProductItem from './ProductItem';
-
+  
 const ProductItems = async () => {
   await delay(4000);
   const latestProducts = await productService.getLatest();

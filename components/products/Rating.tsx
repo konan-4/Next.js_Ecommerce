@@ -7,7 +7,7 @@ export const Rating = ({
 }: {
   value: number;
   caption: string;
-  isCard?: boolean;
+  isCard?: boolean; 
 }) => {
   const Full = () => (
     <svg

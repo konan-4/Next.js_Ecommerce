@@ -4,7 +4,7 @@ import { getPlaiceholder } from 'plaiceholder';
 
 import { Product } from '@/lib/models/ProductModel';
 
-import { Rating } from './Rating';
+import { Rating } from './Rating';  
 
 const ProductItem = async ({ product }: { product: Product }) => {
   const buffer = await fetch(product.image).then(async (res) =>
